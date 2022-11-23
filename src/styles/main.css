@@ -1,0 +1,64 @@
+#app {
+    position: relative;
+    height: 2000px;
+    background: #FFFFFF;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+
+.top_bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    z-index: 1000;
+    background: #FFFFFF;
+}
+
+h1 {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 85px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 85px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+i {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+button {
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    background: #A68F6F;
+    border-radius: 30px;
+    color: #EDEAE1;
+    border-color: #A68F6F;
+}

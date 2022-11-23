@@ -1,0 +1,17 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "targets": {
+    "main": false},
+  "scripts": {
+    "serve": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Ilia <ilamaksimenko91@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
