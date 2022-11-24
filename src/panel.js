@@ -9,7 +9,7 @@ export const panel = [
             width: `auto`,
             height: `30px`,
             left: `80px`,
-            top: `10px`,
+            top: `4px`
         },
         alt: 'Дизайнерские украшения'
     }),
@@ -24,10 +24,11 @@ export const panel = [
             width: `500px`,
             height: `16px`,
             left: `735px`,
-            top: `20px`,
+            top: `auto`,
             'font-family': `Roboto`,
             'font-style': `normal`,
             color: `#32322B`,
+            'vertical-align':`middle`
         }
     }),
     new basketBlock(basket, {
@@ -35,7 +36,7 @@ export const panel = [
             position: `absolute`,
             width: `auto`,
             height: `30px`,
-            left: `1345px`,
+            left: `1325px`,
             top: `10px`
         },
         alt: 'Корзина'

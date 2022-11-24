@@ -13,5 +13,5 @@ topbar.render(panel)
 
 const button = document.querySelector('#button');
 button.addEventListener('click', function (){
-    document.location.href = "https://vk.com/maxanart"
+    document.location.href = "https://vk.com/max_anna_art"
 })

@@ -8,7 +8,4 @@ export class Site {
             this.$el.insertAdjacentHTML('beforeend', block.toHTML())
         })
     }
-
-
-
 }

@@ -45,6 +45,16 @@ p {
     line-height: 27px;
 }
 
+h3{
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+    color: #32322B;
+}
+
+
 i {
     font-weight: 400;
     font-size: 14px;
@@ -61,4 +71,8 @@ button {
     border-radius: 30px;
     color: #EDEAE1;
     border-color: #A68F6F;
+}
+
+button:hover{
+    transform: scale(0.99);
 }

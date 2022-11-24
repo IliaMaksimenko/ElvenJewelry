@@ -1,9 +1,21 @@
-import image from './resources/photo_5467715516857696313_x.jpg'
-import {TitleBlock, SubTitleBlock, TextBlock, ImageBlock, buttonBlock} from './classes/blocks'
+import imageTop from './resources/photo_5467715516857696313_x.jpg'
+import imageRing from './resources/photo_5467715516857696309.png'
+import imageLust from './resources/photo_5467715516857696317_x.jpg'
+import imageLogo from './resources/photo_5467715516857696311_m.jpg'
+import {
+    TitleBlock,
+    SubTitleBlock,
+    TextBlock,
+    ImageBlock,
+    buttonBlock,
+    imageRingBlock,
+    imageLustBlock, logoBlock, sloganBlock, aboutUsBlock
+} from './classes/blocks'
+import {slogan, textF, textS} from "./resources/texts/text";
 
 export const model = [
-    new TitleBlock( 'УНИКАЛЬНЫЕ <br> ДИЗАЙНЕРСКИЕ', {
-        styles:{
+    new TitleBlock('УНИКАЛЬНЫЕ <br> ДИЗАЙНЕРСКИЕ', {
+        styles: {
             position: `absolute`,
             width: `auto`,
             height: `85px`,
@@ -13,8 +25,8 @@ export const model = [
             color: `#32322B`
         }
     }),
-    new SubTitleBlock( 'Эльфийские украшения', {
-        styles:{
+    new SubTitleBlock('Эльфийские украшения', {
+        styles: {
             position: `absolute`,
             width: `auto`,
             height: `85px`,
@@ -25,7 +37,7 @@ export const model = [
             color: `#8F7858`
         }
     }),
-    new TextBlock( 'Ручной работы', {
+    new TextBlock('Ручной работы', {
         styles: {
             position: `absolute`,
             width: `auto`,
@@ -37,8 +49,8 @@ export const model = [
             color: `#32322B`
         }
     }),
-    new ImageBlock( image, {
-        styles:{
+    new ImageBlock(imageTop, {
+        styles: {
             position: `absolute`,
             width: `478px`,
             height: `626px`,
@@ -49,8 +61,8 @@ export const model = [
         },
         alt: `Уникальные дизайнерские украшения ручной работы`
     }),
-    new buttonBlock( 'Перейти в каталог', {
-        styles:{
+    new buttonBlock('Перейти в каталог', {
+        styles: {
             position: `absolute`,
             width: `350px`,
             height: `100px`,
@@ -64,12 +76,67 @@ export const model = [
             background: `#A68F6F`,
             'border-radius': `30px`,
             color: `#EDEAE1`,
-            'border-style': `hidden`
+            'border-style': `hidden`,
+            'box-shadow': `-2px 2px 10px black `,
+            'text-shadow': `-1px 1px 1px white`
         }
 
+    }),
+    new imageRingBlock(imageRing, {
+        styles: {
+            position: `absolute`,
+            width: `400.14px`,
+            height: `400.14px`,
+            left: `733.13px`,
+            top: `509.57px`,
+        }
+    }),
+    new imageLustBlock(imageLust, {
+        styles: {
+            position: `absolute`,
+            width: `auto`,
+            height: `700.69px`,
+            left: `80px`,
+            top: `1055.31px`
+        }
+    }),
+    new logoBlock(imageLogo, {
+        styles: {
+            position: `absolute`,
+            width: `250px`,
+            height: `59px`,
+            left: `800px`,
+            top: `1167px`
+        }
+    }),
+    new sloganBlock(slogan(), {
+        styles:{
+            position: `absolute`,
+            width: `494px`,
+            height: `118px`,
+            left: `800px`,
+            top: `1235px`
+        }
+    }),
+    new aboutUsBlock(textF(), {
+        styles:{
+            position: `absolute`,
+            width: `570px`,
+            height: `54px`,
+            left: `800px`,
+            top: `1390px`,
+        }
+    }),
+    new aboutUsBlock(textS(), {
+        styles:{
+            position: `absolute`,
+            width: `532px`,
+            height: `108px`,
+            left: `800px`,
+            top: `1464px`,
+            'font-weight': `300`
+        }
     })
-
-
 
 
 ]
